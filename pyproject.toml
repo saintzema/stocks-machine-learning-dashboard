@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "machine-learning-dashboard"
+version = "0.1.0"
+description = "A machine learning dashboard for stock prices using Kraken API"
+authors = ["Emmanuel Ezeji <emezeji98@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+streamlit = "^1.26.0"
+requests = "^2.31.0"
+numpy = "^1.25"
+scikit-learn = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
